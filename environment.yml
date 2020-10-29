@@ -1,0 +1,42 @@
+name: sci-tasks
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.7
+  - cudatoolkit=10.1
+  - catboost
+  - deap
+  - h5py
+  - hdf5
+  - ipykernel
+  - ipywidgets
+  - matplotlib
+  - networkx
+  - numpy
+  - opencv
+  - pandas
+  - pillow
+  - pytorch
+  - py-xgboost
+  - requests
+  - seaborn
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - statsmodels
+  - sympy
+  - torchvision
+  - xlsxwriter
+  - pip
+  - pip:
+      - arch
+      - gdown
+      - hurst
+      - pandas_datareader
+      - sklearn_deap
+      - sklearn_json
+      - tensorflow >= 2.0.0
+      - tensorboard
+      - tqdm
