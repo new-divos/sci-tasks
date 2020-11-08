@@ -6,6 +6,7 @@ channels:
 dependencies:
   - python=3.7
   - cudatoolkit=10.1
+  - cudnn
   - catboost
   - deap
   - h5py
@@ -34,7 +35,9 @@ dependencies:
       - arch
       - gdown
       - hurst
+      - openpyxl
       - pandas_datareader
+      - reportlab
       - sklearn_deap
       - sklearn_json
       - tensorflow >= 2.0.0
