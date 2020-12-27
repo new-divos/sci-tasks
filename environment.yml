@@ -2,6 +2,7 @@ name: sci-tasks
 channels:
   - conda-forge
   - defaults
+  - plotly
   - pytorch
 dependencies:
   - python=3.7
@@ -13,14 +14,16 @@ dependencies:
   - hdf5
   - ipykernel
   - ipywidgets
+  - lightgbm
   - matplotlib
   - networkx
   - numpy
   - opencv
   - pandas
   - pillow
-  - pytorch
+  - plotly
   - py-xgboost
+  - pytorch
   - requests
   - seaborn
   - scipy
